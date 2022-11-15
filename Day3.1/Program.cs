@@ -10,8 +10,13 @@ namespace Day3._1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("welcome to moriningstar");
+            Console.WriteLine("welcome to morningstar");
             
+            Person person=new Person();
+            person.FirstName = "Rahul";
+            person.LastName = "Badwar";
+            Console.WriteLine(person.FirstName+" "+person.LastName);
+
             Console.ReadLine();
 
         }
